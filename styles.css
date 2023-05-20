@@ -1,11 +1,13 @@
-/* @font-face { font-family: shoes; src: url('https://github.com/M-watermelon/LifeExtension/blob/797b6fad378aaf330f0e903bef93ce2862f47339/tackyshoes.otf'); }  */
+/* @font-face { font-family: shoes; src: url('tackyshoes.otf'); }  
 
 @font-face {
     font-family: 'tackyshoesDEMO';
     font-style: normal;
     font-weight: normal;
-    src: local('tackyshoesDEMO'), url('https://github.com/M-watermelon/LifeExtension/blob/797b6fad378aaf330f0e903bef93ce2862f47339/tackyshoesDEMO.woff') format('woff');
+    src: local('tackyshoesDEMO'), url('tackyshoesDEMO.otf') format('otf');
 }
+*/
+@font-face { font-family: shoes; src: url('tackyshoes.otf'); }  
 html {
     color:#d0d1d9;
     background-color: #191a21;
@@ -13,5 +15,5 @@ html {
     
 }
 p{
-    font-family: tackyshoesDEMO ;
+    font-family: shoes ;
 }
