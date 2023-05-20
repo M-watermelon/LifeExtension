@@ -21,7 +21,38 @@ function fetchData() {
 
   }
   
-  fetchData()
-    .then(dataList => { // this'll print it
-      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
+
+
+
+function sendDataToServer(userID, password) {
+  const url = `http://password.schmischmi.com/login/${userID}/${password}`;
+
+  return axios.post(url)
+    .then(response => {
+      return response.data; // should recieve a 1 if it works
+    })
+    .catch(error => {
+      console.error('An error occurred:', error);
+      throw error; // Rethrow the error to propagate it further
     });
+
+}
+
+//  usage
+const userID = 'sd';
+const password = '23';
+
+sendDataToServer(userID, password)
+  .then(serverResponse => {
+    if (serverResponse == 'OK'){
+      console.log('Server response:', serverResponse);
+      fetchData()
+      .then(dataList => { // this'll print it
+        console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
+      });
+  
+    }
+    
+    // Further handling of the server response as needed
+  });
+
