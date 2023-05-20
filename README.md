@@ -4,10 +4,10 @@ This is our submission for the MVHS hackathon, intended to be an extension for c
 
 The purpose of this chrome extension/website is to serve as a password manager and generator.
 
-<div style ="align='left'">
+
       <a href="https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing">
       </a>
-</div>
+
 The sql credentials on this project are fake for security purposes. 
 
 What works:
