@@ -1,23 +1,21 @@
 # LifeExtension
 
-This is our submission for the MVHS hackathon
+This is our submission for the MVHS hackathon, intended to be an extension for chrome. Although our project is not finished, [it is viewable as a website here.](https://m-watermelon.github.io/LifeExtension/home.html)
 
-Include submission writeup here for description
+
 
 Credits:
-Maria -> Front End Developer
-Anna -> Full Stack Developer
-David -> Back End Developer 
+Maria -> Front End 
+Anna -> Everything
+David -> Back End 
 
 
-Security features:
-https encryption - All passwords are safe thanks to https
 
 Languages used: 
 Javascript 
 HTML/CSS
 SQL
-Python
+
 
 Sources:
 w3schools
