@@ -4,18 +4,24 @@ const axios = require('axios');
 
 
 
-let data; // Variable to store the retrieved data
+let data; // Var to store the gotten data
 
-axios.get('http://password.schmischmi.com/coolman')
-  .then(response => {
-    const data = response.data;
-    const dataList = [];
+function fetchData() {
+    return axios.get('http://password.schmischmi.com/coolman')
+      .then(response => {
+        const data = response.data;
+        const dataList = [];
+  
+        for (const key in data) {
+          dataList.push(`${key}: ${data[key]}`); // this should clean it up a bit
+        }
+  
+        return dataList;
+      })
 
-    for (const key in data) {
-      dataList.push(`${key}: ${data[key]}`);
-    }
-
-    console.log(dataList.join('\n'));
-    // Use the data as needed
-  })
-
+  }
+  
+  fetchData()
+    .then(dataList => { // this'll print it
+      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
+    });
