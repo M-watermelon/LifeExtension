@@ -30,7 +30,7 @@
     <div>
 
         
-        <button type="button" onclick="hide('row1')">Show password!</button> <!--make a prompt for this in the js file, currently set to row1-->
+        <button type="button" onclick="hide('passwd')">Hide/unhide password!</button> <!--make a prompt for this in the js file, currently set to row1-->
         <button type="button" onclick="removeEntry">Remove Row</button>       
         </div>
         <div>
@@ -41,10 +41,11 @@
                     <th>Password</th>
                     
                 </tr>
-                <tr id = "row1">
+                <tr >
                     <td>loremipsum</td>
                      <td>gappy</td>
-                    <td>abcdefghijk</td>  <!--assign number ids to rows, do this for the add entry function, use for remove row-->
+                     <!--hide unhide only works for first password-->
+                    <td id = "passwd">abcdefghijk</td>  <!--assign number ids to rows, do this for the add entry function, use for remove row-->
                     
                 </tr>
                 <tr>

@@ -18,7 +18,7 @@ function removeEntry(){
 }
 
 function hide(element) {
-    let item = document.getElementById("element");
+    let item = document.getElementById(element);
     if (item.style.display === "none"){
         item.style.display = "block";
     }else{
@@ -26,11 +26,9 @@ function hide(element) {
     }
 } 
 var realPass = "test";
-var realUser = "test";
 function passChecker(){
-    let user = prompt("Enter your username:", "abcde123");
-    let pass = prompt("Enter your password:", "1password1");
-    if(user ==  realUser && pass == realPass){
+    var pass = document.getElementById("LOGIN");
+    if( pass == realPass){
         alert("Log in success!");
         location.href='home.html' ;
         // create browser cookie for successful login
@@ -53,7 +51,6 @@ function passGen(){
     
     return(newPass);
     
-
     
 }
 

@@ -9,10 +9,16 @@
     </head>
     <body>
         <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_b.png?raw=true">
-        <p>LIFE Login</p>
+        <p id = "thetitle">LIFE Login</p>
             <input type="button" onclick="location.href='home.html' ;" value = "Log in!"/>
             <!-- <input type="button" onclick="passChecker()" value = "Log in!"/> -->  
             <!-- fix when done with password checker-->
+            <p>Create database password?</p>
+            <form action = ""> <!--need to assign action-->
+                <input type="password" id = "LOGIN"/>
+                <input type="submit" onclick="passChecker()" value = "Log in!"/>
+            </form>
+            
         <noscript>Sorry, you need to have javascript enabled for this extension!!<noscript>
         <script src ="password.js"></script>
     </body>
