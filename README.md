@@ -48,5 +48,6 @@ SQL
 
 Sources:
 - w3schools
+- Mozilla developer docs
 - stack overflow
 - https://www.fontget.com/font/tacky-shoes/
