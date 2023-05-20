@@ -27,12 +27,12 @@ app.get('/coolman', (req, res) => {
 });
 
 //Account Login
-app.get('/login/:userID/:passwordEnc', (req, res) => {
+app.post('/login/:userID/:passwordEnc', (req, res) => {
   var user = req.params.userID;
   var passowrd = req.params.passwordEnc;
   console.log(req.params);
   //SQL
-  var sqlquery = `INSERT INTO accounts (username, password) VALUES ('${userID}', '${password}');`;
+  var sqlquery = `INSERT INTO accounts (username, password) VALUES ('${user}', '${password}');`;
   connection.query(sqlquery, function (err, result){
     console.log(result);
   });
