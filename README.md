@@ -3,7 +3,7 @@
 This is our submission for the MVHS hackathon, intended to be an extension for chrome. Although our project is not finished, [it is viewable as a website here.](https://m-watermelon.github.io/LifeExtension/home.html)
 
 The purpose of this chrome extension/website is to serve as a password manager and generator.
-
+![image](https://github.com/M-watermelon/LifeExtension/blob/main/image.png)
 
 https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing 
 This is a demo video of our backend.
