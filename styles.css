@@ -1,5 +1,11 @@
-@font-face { font-family: shoes; src: url('file:///home/melon/Desktop/coding/hackathon/LifeExtension/tackyshoes.otf'); } 
+/* @font-face { font-family: shoes; src: url('https://github.com/M-watermelon/LifeExtension/blob/797b6fad378aaf330f0e903bef93ce2862f47339/tackyshoes.otf'); }  */
 
+@font-face {
+    font-family: 'tackyshoesDEMO';
+    font-style: normal;
+    font-weight: normal;
+    src: local('tackyshoesDEMO'), url('https://github.com/M-watermelon/LifeExtension/blob/797b6fad378aaf330f0e903bef93ce2862f47339/tackyshoesDEMO.woff') format('woff');
+}
 html {
     color:#d0d1d9;
     background-color: #191a21;
@@ -7,5 +13,5 @@ html {
     
 }
 p{
-    font-family: shoes ;
+    font-family: tackyshoesDEMO ;
 }
