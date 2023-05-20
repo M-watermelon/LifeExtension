@@ -1,4 +1,4 @@
-@font-face { font-family: Coffee-cake; src: url('file:///home/melon/Desktop/coding/hackathon/LifeExtension/coffecake-font/tackyshoes.otf'); } 
+@font-face { font-family: shoes; src: url('file:///home/melon/Desktop/coding/hackathon/LifeExtension/tackyshoes.otf'); } 
 
 html {
     color:#d0d1d9;
@@ -7,5 +7,5 @@ html {
     
 }
 p{
-    font-family: Coffee-cake ;
+    font-family: shoes ;
 }
