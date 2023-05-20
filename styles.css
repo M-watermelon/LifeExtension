@@ -1,8 +1,11 @@
-@font-face { font-family: Coffee-cake; src: url('CoffeCake.otf'); } 
-
+@font-face { font-family: Coffee-cake; src: url('file:///home/melon/Desktop/coding/hackathon/LifeExtension/coffecake-font/tackyshoes.otf'); } 
 
 html {
     color:#d0d1d9;
     background-color: #191a21;
+    font-size: 500%;
+    
+}
+p{
     font-family: Coffee-cake ;
 }
