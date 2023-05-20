@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_b.png?raw=true">
+        <img id = "logo" src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_b.png?raw=true">
         <p id = "thetitle">LIFE Login</p>
             <input type="button" onclick="location.href='home.html' ;" value = "Log in!"/>
             <!-- <input type="button" onclick="passChecker()" value = "Log in!"/> -->  
@@ -16,7 +16,7 @@
             <p>Create database password?</p>
             <form action = ""> <!--need to assign action-->
                 <input type="text" id = "LOGIN" value = "Username"/>
-                <p>Password</p>
+                <p id="labelfix">Password:</p>
                 <input type="password" id = "LOGIN"/>
                 <input type="submit" onclick="passChecker()" value = "Log in!"/>
             </form>
