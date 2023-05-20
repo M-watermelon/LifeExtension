@@ -11,9 +11,9 @@ Please look to fetcher.js for the log in and actual functionality of the program
 
 
 Credits:
-Maria -> Front End 
-Anna -> Everything
-David -> Back End 
+- Maria -> Front End 
+- Anna -> Middle
+- David -> Back End 
 
 
 
@@ -24,6 +24,6 @@ SQL
 
 
 Sources:
-w3schools
-stack overflow
-https://www.fontget.com/font/tacky-shoes/
+- w3schools
+- stack overflow
+- https://www.fontget.com/font/tacky-shoes/
