@@ -48,13 +48,25 @@ tr:hover {
 }
 /* implement text wrapping  */
 button{
-
+    background-color: #abcce2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 100%;    
-    background-color: #d0d1d9;
     border-radius: 5px;
     border-color: #6e5237;
 }
+/*
+#centerbutton{
+    position: relative;
+    left: 40%;
+    right: 50%;
+}
+#otherbutton{
+    position: relative;
+    left: 50%;
+    right: 60%;
+}
+
+*/
 button:hover {
     background-color: #e4a060;
 }
