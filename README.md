@@ -6,12 +6,15 @@ The purpose of this chrome extension/website is to serve as a password manager a
 
 
 <iframe width="560" height="315"
-src="https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing" 
+src="
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-
+<div style ="align='left'">
+      <a href="https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing">
+      </a>
+</div>
 The sql credentials on this project are fake for security purposes. 
 
 What works:
