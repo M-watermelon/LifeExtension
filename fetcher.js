@@ -20,6 +20,7 @@ function fetchData() {
       })
 
   }
+<<<<<<< Updated upstream
   
 
 
@@ -56,3 +57,17 @@ sendDataToServer(userID, password)
     // Further handling of the server response as needed
   });
 
+||||||| Stash base
+  
+  fetchData()
+    .then(dataList => { // this'll print it
+      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
+    });
+=======
+
+  fetchData()
+    .then(dataList => { // this'll print it
+      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
+    });
+
+>>>>>>> Stashed changes

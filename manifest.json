@@ -11,5 +11,5 @@
     "scripts": ["password.js"]
 
   },
-  "permissions": [    "contextMenus",    "tabs"],
+  "permissions": [    "contextMenus",    "tabs"]
 }

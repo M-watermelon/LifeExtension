@@ -29,12 +29,13 @@
     </div>
     <div>
 
-        
-        <button type="button" onclick="hide('passwd')">Hide/unhide password!</button> <!--make a prompt for this in the js file, currently set to row1-->
-        <button type="button" onclick="removeEntry">Remove Row</button>       
+        <button type="button" onclick="addstuff()">Reload table</button>
+        <button type="button" onclick="hide('passwd')">Hide/unhide password!</button> <!--make a prompt for this in the js file, currently set to row1
+        <button type="button" onclick="removeEntry">Remove Row</button>  -->     
         </div>
         <div>
-            <table>
+
+            <table id ="newtable">
                 <tr>
                     <th>Title</th>
                     <th>Username</th>
@@ -61,6 +62,7 @@
             </table>  
         </div>
         <div>
+            <p id="test"></p> 
             <p id="test2"></p> 
             <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_r.png?raw=true" >
             <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_o.png?raw=true" >
@@ -75,7 +77,7 @@
 
         
         <script src = "password.js"></script>
+        <script src = "fetcher.js"></script>
     </body>
     
 </html>
- <!--This is a comment.-->
