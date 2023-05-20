@@ -20,13 +20,12 @@ function fetchData() {
       })
 
   }
-<<<<<<< Updated upstream
   
 
 
 
 function sendDataToServer(userID, password) {
-  const url = `http://password.schmischmi.com/login/${userID}/${password}`;
+  const url = `http://password.schmischmi.com/regester/${userID}/${password}`; // we accidentally flipped the login and the register links.... 
 
   return axios.post(url)
     .then(response => {
@@ -40,10 +39,10 @@ function sendDataToServer(userID, password) {
 }
 
 //  usage
-const userID = 'sd';
-const password = '23';
+const userID = "sd";//the username is: sd
+const password = "80982093";// the password is : 80982093
 
-sendDataToServer(userID, password)
+sendDataToServer(userID, password)// if the user and pass is correct, it should print out the user name and password to another site. 
   .then(serverResponse => {
     if (serverResponse == 'OK'){
       console.log('Server response:', serverResponse);
@@ -57,17 +56,3 @@ sendDataToServer(userID, password)
     // Further handling of the server response as needed
   });
 
-||||||| Stash base
-  
-  fetchData()
-    .then(dataList => { // this'll print it
-      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
-    });
-=======
-
-  fetchData()
-    .then(dataList => { // this'll print it
-      console.log(dataList.join('\n')); // makes it so the it prints it and seperates with a line. 
-    });
-
->>>>>>> Stashed changes
