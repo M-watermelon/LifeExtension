@@ -36,6 +36,7 @@ app.post('/login/:userID/:passwordEnc', (req, res) => {
   connection.query(sqlquery, function (err, result){
     console.log(result);
   });
+  res.send(1);
 });
 
 //Account Sign-up
