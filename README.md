@@ -5,8 +5,8 @@ This is our submission for the MVHS hackathon, intended to be an extension for c
 The purpose of this chrome extension/website is to serve as a password manager and generator.
 
 
-      <a href="https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing">
-      </a>
+https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing 
+This is a demo video of our backend.
 
 The sql credentials on this project are fake for security purposes. 
 
