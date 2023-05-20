@@ -5,10 +5,15 @@ This is our submission for the MVHS hackathon, intended to be an extension for c
 The purpose of this chrome extension/website is to serve as a password manager and generator.
 ![image](https://github.com/M-watermelon/LifeExtension/blob/main/image.png)
 
-https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing 
-This is a demo video of our backend.
+
+Demo videos:
+
+- https://drive.google.com/file/d/18IG6cUKK3MTL-ORq8ycy_vfUKjE7H2Ee/view?usp=sharing 
+- https://drive.google.com/file/d/1-gSpjlpNXGIdqzOMR3JtzJpcYdRHRlaW/view?usp=sharing
+- https://drive.google.com/file/d/1XVszaIhqXpb5vhwR0-CZo5ylkyzIuZ20/view?usp=sharing
 
 The sql credentials on this project are fake for security purposes. 
+If there are 404 or error 500 messages, the server is turned off.
 
 What works:
 - Overall ui (HTML site and CSS styling, javascript for most buttons)
