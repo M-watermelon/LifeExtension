@@ -7,14 +7,60 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_b.png?raw=true">
-        <p>Passwords for LIFE</p>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Password</th>
-            </tr>
-        </table>
+        <div>
+            <p id = "thetitle">Passwords for LIFE</p>
+            <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/duckie_b.png?raw=true">
+            <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/pen_5.gif?raw=true">
+            <img src="https://github.com/M-watermelon/LifeExtension/blob/main/images/inline.gif?raw=true">
+        </div>
+        <div>
+        <p>Instructions:</p>
+        <p>Use the "Generate password" button to make a new password. Copy it (highlight and press ctrl-c) and then click "Add entry". You will be asked for a title, username, and password. Paste the password when asked using ctrl-v. </p> <!--what about clearing clipboard?-->   
+        </div>
+        <div>
+        <button type="button" onclick="passGen()">Generate password</button>
+    </div>
+    <div>
+        <button type="button" onclick="addEntry()">Add entry</button>
+        
+        <button type="button" onclick="hide('row1')">Show password!</button> <!--make a prompt for this in the js file, currently set to row1-->
+        <button type="button" onclick="removeEntry">Remove Row</button>       
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    
+                </tr>
+                <tr id = "row1">
+                    <td>loremipsum</td>
+                     <td>gappy</td>
+                    <td>abcdefghijk</td>  <!--assign number ids to rows, do this for the add entry function, use for remove row-->
+                    
+                </tr>
+                <tr>
+                    <td>google</td>
+                    <td>rick99</td>
+                    <td>nevergonnagiveyouup</td>
+                </tr>
+                <tr>
+                    <td>classroom</td>
+                    <td>rick</td>
+                    <td>astley</td>
+                </tr>
+            </table>  
+        </div>
+        <div>
+            <p id="test2"></p> 
+        </div>
+
+        
+
+        
+        <script src = "password.js"></script>
     </body>
     
 </html>
+ <!--This is a comment.-->
