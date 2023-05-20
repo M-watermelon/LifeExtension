@@ -24,7 +24,7 @@ What doesn't work:
 - Javascript in chrome extension
 
 
-
+Please look at the screencast video, and meteahackathon.webp video. You may have to download them to view them. Meteahackathon video freezes at the end for some reason... 
 
 Credits:
 - Maria -> Front End 
